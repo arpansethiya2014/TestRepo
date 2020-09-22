@@ -255,6 +255,7 @@ public class SwingSoundRecorder extends JFrame implements ActionListener {
 			UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
 		} catch (Exception ex) {
 			ex.printStackTrace();
+		System.out.println(ex);
 		}
 
 		SwingUtilities.invokeLater(new Runnable() {
